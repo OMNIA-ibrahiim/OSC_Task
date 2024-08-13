@@ -1,10 +1,7 @@
 mkdir omnia
-cd omnia
 touch one.txt two.txt three.txt four.txt
 mkdir BAD
-cd BAD
 touch bad.txt
-cd -
 mv one.txt /home/osc/Downloads
 cd ~/Downloads/
 cp one.txt copy.txt
