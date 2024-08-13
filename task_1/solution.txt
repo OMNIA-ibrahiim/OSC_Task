@@ -1,0 +1,16 @@
+mkdir omnia
+cd omnia
+touch one.txt two.txt three.txt four.txt
+mkdir BAD
+cd BAD
+touch bad.txt
+cd -
+mv one.txt /home/osc/Downloads
+cd ~/Downloads/
+cp one.txt copy.txt
+cd ~/omnia/
+nano two.txt
+nano three.txt
+mv three.txt hello.txt
+rm four.txt
+rm -r BAD
